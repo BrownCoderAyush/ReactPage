@@ -5,6 +5,8 @@
   font-family: 'Poppins', sans-serif;
   color: white;
 }
+
+/* #nav section  */
 .nav{
   background-color: #0c110c;
   display: flex;
@@ -32,11 +34,33 @@
   margin-right: 10px;
 }
 
-
-.mainDiv{
-  background-color: yellow;
+/* # body section  */
+body{
+  background-color: #282D35;
 }
 
+/* #main section  */
+main{
+  padding: 60px;
+  font-size: 25px;
+  background-image: url('./images//pngwing.com.png');
+  background-repeat: no-repeat;
+  background-size: 200px ;
+  background-position:  right 75% ;
+}
+
+.main--list{
+    margin-top: 46px;
+    padding-left: 20px;
+}
+.main--list li{
+  padding-block: 10px;
+}
+.main--list li::marker{
+  font-size: 1.4rem;
+  color: aqua;
+}
+/* #footer section  */
 
 .footer{
   background-color: blueviolet;
